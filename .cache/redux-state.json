@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/jennifer/jmackown/git/lincsjs/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a96408acbd8a809e56bebe2ffb15c9c5",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -619,16 +610,14 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-22T15:59:13.126Z",
+      "buildTime": "2018-03-22T16:03:40.261Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cd6878c5d08797e399aabdfff51e6a99",
+        "contentDigest": "8ecefca182680d3748e2d4e840ce6bf8",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -849,7 +838,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2bc3e2faf19b658bd9c32654b01135f0",
+        "contentDigest": "0af69e4bcf264788fb79e7e5ba25b47c",
         "owner": "internal-data-bridge"
       }
     },
@@ -871,7 +860,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "fd66aa7b3640b0b2eab5363d25f39f77",
+        "contentDigest": "88f26a2c6485844cac5838526cc4fe72",
         "owner": "internal-data-bridge"
       }
     },
@@ -891,7 +880,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6c6414cb0c2b68655883be61a16b0445",
+        "contentDigest": "e565efdca5968090d6870173120e1916",
         "owner": "internal-data-bridge"
       }
     },
@@ -911,7 +900,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "624dcd7a050b89735a2e528e0e72c915",
+        "contentDigest": "c2ce00efa096d081012bf5022bc8afe6",
         "owner": "internal-data-bridge"
       }
     },
@@ -931,7 +920,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a49951952be02c42f7cd1116c32479e3",
+        "contentDigest": "c14d234bf1513d7ceb283b9d31afffc5",
         "owner": "internal-data-bridge"
       }
     },
@@ -951,7 +940,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d122ceeee7a9be2094655a32cbc06062",
+        "contentDigest": "66eb5f5cfcfe04281d464a791106e5b0",
         "owner": "internal-data-bridge"
       }
     },
@@ -971,7 +960,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7d2bb8f9afd02e6ade8e877614416a2f",
+        "contentDigest": "c16c77aad3372590b3f49fe966c5d862",
         "owner": "internal-data-bridge"
       }
     }
