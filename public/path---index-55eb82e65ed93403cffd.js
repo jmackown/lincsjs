@@ -1,0 +1,2 @@
+webpackJsonp([0x81b8806e4260],{320:function(e,o){e.exports={data:{allContentfulBlogPost:{edges:[{node:{id:"c2wL6RMdhawcUOQqwaIs0AY",createdAt:"March 22, 2018",postTitle:"This is a demo post to see how all this works",postBody:{id:"c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode",childMarkdownRemark:{excerpt:'The standard Lorem Ipsum passage, used since the 1500s \n"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor…'}}}}]}},pathContext:{}}}});
+//# sourceMappingURL=path---index-55eb82e65ed93403cffd.js.map
