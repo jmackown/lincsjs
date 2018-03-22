@@ -1,5 +1,26 @@
 [
     {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "second-post.json",
+        "path": "/second-post"
+    },
+    {
+        "componentChunkName": "component---src-templates-blog-post-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "first-post.json",
+        "path": "/first-post"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
+    },
+    {
         "componentChunkName": "component---src-pages-404-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
@@ -14,11 +35,25 @@
         "path": "/"
     },
     {
+        "componentChunkName": "component---src-pages-meetups-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "meetups.json",
+        "path": "/meetups/"
+    },
+    {
         "componentChunkName": "component---src-pages-page-2-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "page-2.json",
         "path": "/page-2/"
+    },
+    {
+        "componentChunkName": "component---src-pages-singlemeetup-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "singlemeetup.json",
+        "path": "/singlemeetup/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",

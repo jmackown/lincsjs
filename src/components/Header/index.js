@@ -23,9 +23,20 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          Lincs JS
         </Link>
       </h1>
+      <h2 style={{ margin: 0 }}>
+        <Link
+          to="/meetups"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+          Meetups
+        </Link>
+      </h2>      
     </div>
   </div>
 )

@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/jennifer/jmackown/git/lincsjs/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "57ea55675e105942602434a763cdbdcb",
         "owner": "internal-data-bridge"
       }
     },
@@ -531,11 +540,13 @@
       "resolve": "/Users/jennifer/jmackown/git/lincsjs",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "b59d76047be9437834ca40b590384678",
+      "version": "48c45758f4ef04590f344303a7d1c8f1",
       "pluginOptions": {
         "plugins": []
       },
-      "nodeAPIs": [],
+      "nodeAPIs": [
+        "createPages"
+      ],
       "browserAPIs": [],
       "ssrAPIs": [],
       "pluginFilepath": "/Users/jennifer/jmackown/git/lincsjs",
@@ -599,7 +610,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "a7cf451a7971a8b1b389f16684181583",
+        "contentDigest": "14986ad19f76ce8df9d54295c88503b4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -608,14 +619,16 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-22T11:03:19.831Z",
+      "buildTime": "2018-03-22T14:01:50.986Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "66952d60242880d1552be71803cf87b4",
+        "contentDigest": "2b9bb6ae56ab65305ea50cbb45a05c3a",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -633,23 +646,58 @@
         "owner": "gatsby-source-contentful"
       }
     },
+    "c62WoAw1a5UIk0eKkOWoiwM": {
+      "postTitle": "This is a second blog post",
+      "slug": "/second-post",
+      "postBody___NODE": "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode",
+      "id": "c62WoAw1a5UIk0eKkOWoiwM",
+      "contentful_id": "62WoAw1a5UIk0eKkOWoiwM",
+      "createdAt": "2018-03-22T11:15:27.965Z",
+      "updatedAt": "2018-03-22T13:17:44.554Z",
+      "parent": "Blog Post",
+      "children": [
+        "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulBlogPost",
+        "contentDigest": "145e35b6a11d7349919e772020b24380",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-GB"
+    },
     "c2wL6RMdhawcUOQqwaIs0AY": {
       "postTitle": "This is a demo post to see how all this works",
+      "slug": "/first-post",
       "postBody___NODE": "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode",
       "id": "c2wL6RMdhawcUOQqwaIs0AY",
       "contentful_id": "2wL6RMdhawcUOQqwaIs0AY",
       "createdAt": "2018-03-22T08:56:28.631Z",
-      "updatedAt": "2018-03-22T08:56:28.631Z",
+      "updatedAt": "2018-03-22T13:17:22.629Z",
       "parent": "Blog Post",
       "children": [
         "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode"
       ],
       "internal": {
         "type": "ContentfulBlogPost",
-        "contentDigest": "472b648476f3b669cbe38e066283a27a",
+        "contentDigest": "02b45b8a826fa9a7b0d570d0306eeb21",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-GB"
+    },
+    "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode": {
+      "id": "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode",
+      "parent": "c62WoAw1a5UIk0eKkOWoiwM",
+      "children": [
+        "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode >>> MarkdownRemark"
+      ],
+      "postBody": "Obviously the Time Lords have programmed the TARDIS always to return to Earth. It seems that I am some kind of a galactic yo-yo! An unintelligent enemy is far less dangerous than an intelligent one…. No… No-no-no-no-wait-wait-wait-wait… I remember I'm-I-I… I'm with my father, we're lying back in the grass, it's a warm Gallifreyan night— I think I might have miscalculated. There are worlds out there where the sky is burning, and the sea's asleep, and the rivers dream; people made of smoke and cities made of song. Somewhere there's danger, somewhere there's injustice, and somewhere else the tea's getting cold. Come on, Ace. We've got work to do.\n\nA little gratitude wouldn't irretrievably damage my ego. Alright? Of course I'm alright, my child. You know, I am so constantly outwitting the opposition, I tend to forget the delights and satisfaction of the gentle art of fisticuffs. There are fixed points throughout time where things must stay exactly the way they are. This is not one of them. This is an opportunity! Whatever happens here will create its own timeline, its own reality, a temporal tipping point. The future revolves around you, here, now, so do good!\n\nCan I talk about planets now? Ricky, if I was to tell you what I was doing to the controls of my frankly magnificent timeship, would you even begin to understand? It's times like this I wish I still had my scarf. It may be irrational of me, but human beings are my favorite species. I'm sorry. I'm so sorry. Your ideas are too narrow and crippled. I am a citizen of the universe and a gentleman to boot. I don't suppose we'll ever know if we actually succeeded. But at worst, we failed doing the right thing, as opposed to succeeding in doing the wrong.\n\nCourage isn’t a matter of not being frightened, it’s being afraid and doing what you have to do anyway. I can't stand burnt toast. I loathe bus stations. Terrible places. Full of lost luggage and lost souls. Mmmm… what's that m'boy? I think I might have miscalculated. No, not the hugging. I'm against the hugging. Well, I'll tell you something that should be of vital interest to you.…That you, Sir, are a NITWIT! Be a pal and tell me, Am I a good man? Are you listening to me? Doctor no more. Blimey, trying to make an Ood laugh...\n\nNot allowed? Not allowed? Me, I’m allowed everywhere. I'm half human. On my mother's side. Right! So stop dilly-dallying, and cross it! I'm sorry. I'm so sorry. Blimey, trying to make an Ood laugh... If I grow to be half the man that you are, Clara Oswald, then I shall be happy indeed. I once spent a hell of a long time trying to get a gobby Australian to Heathrow airport. This stuff, or whoever sent it, is cleverer than we are. Unfortunate, isn't it? Frightened people. Give me a Dalek any day.\n\nDeath is always more frightening when it strikes invisibly. Excellent. Blow up that vehicle. No. That is not the question. That is not where we start. I am totally against bantering. Don't you think she looks tired? The past is another country. 1987's just the Isle of Wight. Your ideas are too narrow and crippled. I am a citizen of the universe and a gentleman to boot. Soon, I expect. Or later. One of those. I had to face my fear...that was more important than just going on living.... Why can't you leave me alone?!\n\nRiver, you know my name. You whispered my name in my ear! There's only one reason I would ever tell anyone my name. There's only one time I could... I once spent a hell of a long time trying to get a gobby Australian to Heathrow airport. You don't understand so you find excuses. Thank you, Strax. And if I'm ever in need of advice from a psychotic potato dwarf, you'll certainly be the first to know. New-new-Doctor. It's rather a pity, in a way...now the universe is down to 699 wonders. Yes, well, the definition of the word 'humanity' is always a rather complex question, isn’t it?\n\nJamie, remind me to give you a lesson in tying knots, sometime. You’ll never understand. I want to see the universe, not to rule it. Brave heart, Tegan. Our lives are different from anybody else’s. That’s the exciting thing. Nobody in the universe can do what we’re doing. One day, I shall come back. Yes, I shall come back. Until then, there must be no regrets, no tears, no anxieties. Just go forward in all your beliefs and prove to me that I am not mistaken in mine. Goodbye Susan. Goodbye my dear.\n\nThe Doctor. Nosey parker. The world's about to end, and here I am, stuck in traffic. When I say run, run. ...RUN! Renewed? Have I? That's it, I've been renewed. It's part of the TARDIS. Without it I couldn't survive. I might've been saying something important. I was saying something important! Reverse the polarity of the neutron flow. Don't you think she looks tired? Goodbye...my Sarah Jane! Oh, my giddy aunt! You don't understand so you find excuses. Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse.",
+      "internal": {
+        "type": "contentfulBlogPostPostBodyTextNode",
+        "mediaType": "text/markdown",
+        "content": "Obviously the Time Lords have programmed the TARDIS always to return to Earth. It seems that I am some kind of a galactic yo-yo! An unintelligent enemy is far less dangerous than an intelligent one…. No… No-no-no-no-wait-wait-wait-wait… I remember I'm-I-I… I'm with my father, we're lying back in the grass, it's a warm Gallifreyan night— I think I might have miscalculated. There are worlds out there where the sky is burning, and the sea's asleep, and the rivers dream; people made of smoke and cities made of song. Somewhere there's danger, somewhere there's injustice, and somewhere else the tea's getting cold. Come on, Ace. We've got work to do.\n\nA little gratitude wouldn't irretrievably damage my ego. Alright? Of course I'm alright, my child. You know, I am so constantly outwitting the opposition, I tend to forget the delights and satisfaction of the gentle art of fisticuffs. There are fixed points throughout time where things must stay exactly the way they are. This is not one of them. This is an opportunity! Whatever happens here will create its own timeline, its own reality, a temporal tipping point. The future revolves around you, here, now, so do good!\n\nCan I talk about planets now? Ricky, if I was to tell you what I was doing to the controls of my frankly magnificent timeship, would you even begin to understand? It's times like this I wish I still had my scarf. It may be irrational of me, but human beings are my favorite species. I'm sorry. I'm so sorry. Your ideas are too narrow and crippled. I am a citizen of the universe and a gentleman to boot. I don't suppose we'll ever know if we actually succeeded. But at worst, we failed doing the right thing, as opposed to succeeding in doing the wrong.\n\nCourage isn’t a matter of not being frightened, it’s being afraid and doing what you have to do anyway. I can't stand burnt toast. I loathe bus stations. Terrible places. Full of lost luggage and lost souls. Mmmm… what's that m'boy? I think I might have miscalculated. No, not the hugging. I'm against the hugging. Well, I'll tell you something that should be of vital interest to you.…That you, Sir, are a NITWIT! Be a pal and tell me, Am I a good man? Are you listening to me? Doctor no more. Blimey, trying to make an Ood laugh...\n\nNot allowed? Not allowed? Me, I’m allowed everywhere. I'm half human. On my mother's side. Right! So stop dilly-dallying, and cross it! I'm sorry. I'm so sorry. Blimey, trying to make an Ood laugh... If I grow to be half the man that you are, Clara Oswald, then I shall be happy indeed. I once spent a hell of a long time trying to get a gobby Australian to Heathrow airport. This stuff, or whoever sent it, is cleverer than we are. Unfortunate, isn't it? Frightened people. Give me a Dalek any day.\n\nDeath is always more frightening when it strikes invisibly. Excellent. Blow up that vehicle. No. That is not the question. That is not where we start. I am totally against bantering. Don't you think she looks tired? The past is another country. 1987's just the Isle of Wight. Your ideas are too narrow and crippled. I am a citizen of the universe and a gentleman to boot. Soon, I expect. Or later. One of those. I had to face my fear...that was more important than just going on living.... Why can't you leave me alone?!\n\nRiver, you know my name. You whispered my name in my ear! There's only one reason I would ever tell anyone my name. There's only one time I could... I once spent a hell of a long time trying to get a gobby Australian to Heathrow airport. You don't understand so you find excuses. Thank you, Strax. And if I'm ever in need of advice from a psychotic potato dwarf, you'll certainly be the first to know. New-new-Doctor. It's rather a pity, in a way...now the universe is down to 699 wonders. Yes, well, the definition of the word 'humanity' is always a rather complex question, isn’t it?\n\nJamie, remind me to give you a lesson in tying knots, sometime. You’ll never understand. I want to see the universe, not to rule it. Brave heart, Tegan. Our lives are different from anybody else’s. That’s the exciting thing. Nobody in the universe can do what we’re doing. One day, I shall come back. Yes, I shall come back. Until then, there must be no regrets, no tears, no anxieties. Just go forward in all your beliefs and prove to me that I am not mistaken in mine. Goodbye Susan. Goodbye my dear.\n\nThe Doctor. Nosey parker. The world's about to end, and here I am, stuck in traffic. When I say run, run. ...RUN! Renewed? Have I? That's it, I've been renewed. It's part of the TARDIS. Without it I couldn't survive. I might've been saying something important. I was saying something important! Reverse the polarity of the neutron flow. Don't you think she looks tired? Goodbye...my Sarah Jane! Oh, my giddy aunt! You don't understand so you find excuses. Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse.",
+        "contentDigest": "7af5ceeaba1ec0985ef5b08eba6c54bf",
+        "owner": "gatsby-source-contentful"
+      }
     },
     "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode": {
       "id": "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode",
@@ -665,6 +713,88 @@
         "contentDigest": "6bc67e7deb641a76a214453e5988abfd",
         "owner": "gatsby-source-contentful"
       }
+    },
+    "link like reddit": {
+      "id": "link like reddit",
+      "parent": null,
+      "children": [],
+      "name": "link like reddit",
+      "displayField": "postTitle",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "8e4a98e57d1ec46066490fc8c755ff99",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "meetup": {
+      "id": "meetup",
+      "parent": null,
+      "children": [],
+      "name": "meetup",
+      "displayField": "meetupName",
+      "description": "",
+      "internal": {
+        "type": "ContentfulContentType",
+        "contentDigest": "af6393460d7396e52ddd2a2c57134984",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c2NMlVbwRCgeoQI0OWuGska": {
+      "meetupName": "Initial Commit",
+      "meetupGuests": "Jennifer and Adam",
+      "meetupDate": "2018-03-29T18:30+00:00",
+      "meetupLocation": {
+        "lon": -0.5352181000000655,
+        "lat": 53.22257579999999
+      },
+      "meetupDetails___NODE": "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode",
+      "id": "c2NMlVbwRCgeoQI0OWuGska",
+      "contentful_id": "2NMlVbwRCgeoQI0OWuGska",
+      "createdAt": "2018-03-22T11:30:28.137Z",
+      "updatedAt": "2018-03-22T11:30:28.137Z",
+      "parent": "meetup",
+      "children": [
+        "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode"
+      ],
+      "internal": {
+        "type": "ContentfulMeetup",
+        "contentDigest": "415df06a0ebadb90a2edbd63ad2bd2c1",
+        "owner": "gatsby-source-contentful"
+      },
+      "node_locale": "en-GB"
+    },
+    "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode": {
+      "id": "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode",
+      "parent": "c2NMlVbwRCgeoQI0OWuGska",
+      "children": [
+        "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode >>> MarkdownRemark"
+      ],
+      "meetupDetails": "He was dead already, I'm saving us. Follow me, and run! Underneath it all I think you're probably kind and nice, and very brave. I just wish you weren't a soldier. You see when I started, all those years ago, I was just running. I called myself the Doctor but it was just a name. Then I went to Skaro. And I met you lot. And I understood who I was. Please just... just see me. I don't know. But I'd probably blame the English. Why do you have three mirrors? Why don't you just turn your head? Shush.\n\nSoon, I expect. Or later. One of those. That's a relief. I hate babysitters. Kidneys! I have kidneys. And I don't like the colour. Are you taller? Why? Do you have to reach a high shelf? I am totally against bantering. The Doctor. Nosey parker. He was dead already, I'm saving us. Follow me, and run! Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse. I don't need a sword. Because I'm the Doctor ... and this is my spoon. What do you think of the new look? I was hoping for 'minimalism', but I think I came up with 'magician'.\n\nMy personal plan is that a thing will probably happen quite soon. Please just... just see me. You realise one of us is lying about our basic programming. And I think we both know which one that is. I don't know. But I'd probably blame the English. When this is all over, you can find a shoulder to cry on. But for now, you need me. What do you think of the new look? I was hoping for 'minimalism', but I think I came up with 'magician'. Shut it, Hoodie! Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse.\n\nBe a pal and tell me, Am I a good man? I just have one question… do you know how to fly this thing? What do you think of the new look? I was hoping for 'minimalism', but I think I came up with 'magician'. Shut up! Just shut up, shut up, shut up, shuttity up up up! Shush. Clara, I'm not your boyfriend. I never said it was your mistake. Five foot one and crying - you never stood a chance. Well, I would say that that person would be an egomaniac, need, game-player sort of person. That's a relief. I hate babysitters.\n\nKidneys! I have kidneys. And I don't like the colour. Why do you have three mirrors? Why don't you just turn your head? Please just... just see me. When this is all over, you can find a shoulder to cry on. But for now, you need me. Come on, Team Not Dead. Old ladies die all the time. It's practically in the job description. I just have one question… do you know how to fly this thing? My carer. She cares so I don't have to. You realise one of us is lying about our basic programming. And I think we both know which one that is.\n\nI am totally against bantering. You see when I started, all those years ago, I was just running. I called myself the Doctor but it was just a name. Then I went to Skaro. And I met you lot. And I understood who I was. The Doctor. Nosey parker. Don't be lasagna. Once upon a time. The end. Dad skills. I don't think that I'm a hugging person now. Soon, I expect. Or later. One of those. My carer. She cares so I don't have to. Well, I would say that that person would be an egomaniac, need, game-player sort of person.\n\nKidneys! I have kidneys. And I don't like the colour. No. That is not the question. That is not where we start. Don't be lasagna. I am totally against bantering. I don't know. But I'd probably blame the English. Shut it, Hoodie! When this is all over, you can find a shoulder to cry on. But for now, you need me. Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse. Clara, I'm not your boyfriend. I never said it was your mistake. Why do you have three mirrors? Why don't you just turn your head?\n\nSoon, I expect. Or later. One of those. I don't know. But I'd probably blame the English. Well, you're very similar heights. Maybe you should wear labels. Well, I would say that that person would be an egomaniac, need, game-player sort of person. It’s a bit more exciting when you go the other way. Shut up! Just shut up, shut up, shut up, shuttity up up up! Big scarf, bow tie, big embarrassing. Old ladies die all the time. It's practically in the job description. Once upon a time. The end. Dad skills.\n\nOld ladies die all the time. It's practically in the job description. Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse. I don't need a sword. Because I'm the Doctor ... and this is my spoon. I am totally against bantering. Your hips are fine, you're built like a man! No sir. Thirteen! I've made many mistakes... and it's about time that I did something about that. Come on, Team Not Dead. Five foot one and crying - you never stood a chance. Well, you're very similar heights. Maybe you should wear labels.",
+      "internal": {
+        "type": "contentfulMeetupMeetupDetailsTextNode",
+        "mediaType": "text/markdown",
+        "content": "He was dead already, I'm saving us. Follow me, and run! Underneath it all I think you're probably kind and nice, and very brave. I just wish you weren't a soldier. You see when I started, all those years ago, I was just running. I called myself the Doctor but it was just a name. Then I went to Skaro. And I met you lot. And I understood who I was. Please just... just see me. I don't know. But I'd probably blame the English. Why do you have three mirrors? Why don't you just turn your head? Shush.\n\nSoon, I expect. Or later. One of those. That's a relief. I hate babysitters. Kidneys! I have kidneys. And I don't like the colour. Are you taller? Why? Do you have to reach a high shelf? I am totally against bantering. The Doctor. Nosey parker. He was dead already, I'm saving us. Follow me, and run! Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse. I don't need a sword. Because I'm the Doctor ... and this is my spoon. What do you think of the new look? I was hoping for 'minimalism', but I think I came up with 'magician'.\n\nMy personal plan is that a thing will probably happen quite soon. Please just... just see me. You realise one of us is lying about our basic programming. And I think we both know which one that is. I don't know. But I'd probably blame the English. When this is all over, you can find a shoulder to cry on. But for now, you need me. What do you think of the new look? I was hoping for 'minimalism', but I think I came up with 'magician'. Shut it, Hoodie! Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse.\n\nBe a pal and tell me, Am I a good man? I just have one question… do you know how to fly this thing? What do you think of the new look? I was hoping for 'minimalism', but I think I came up with 'magician'. Shut up! Just shut up, shut up, shut up, shuttity up up up! Shush. Clara, I'm not your boyfriend. I never said it was your mistake. Five foot one and crying - you never stood a chance. Well, I would say that that person would be an egomaniac, need, game-player sort of person. That's a relief. I hate babysitters.\n\nKidneys! I have kidneys. And I don't like the colour. Why do you have three mirrors? Why don't you just turn your head? Please just... just see me. When this is all over, you can find a shoulder to cry on. But for now, you need me. Come on, Team Not Dead. Old ladies die all the time. It's practically in the job description. I just have one question… do you know how to fly this thing? My carer. She cares so I don't have to. You realise one of us is lying about our basic programming. And I think we both know which one that is.\n\nI am totally against bantering. You see when I started, all those years ago, I was just running. I called myself the Doctor but it was just a name. Then I went to Skaro. And I met you lot. And I understood who I was. The Doctor. Nosey parker. Don't be lasagna. Once upon a time. The end. Dad skills. I don't think that I'm a hugging person now. Soon, I expect. Or later. One of those. My carer. She cares so I don't have to. Well, I would say that that person would be an egomaniac, need, game-player sort of person.\n\nKidneys! I have kidneys. And I don't like the colour. No. That is not the question. That is not where we start. Don't be lasagna. I am totally against bantering. I don't know. But I'd probably blame the English. Shut it, Hoodie! When this is all over, you can find a shoulder to cry on. But for now, you need me. Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse. Clara, I'm not your boyfriend. I never said it was your mistake. Why do you have three mirrors? Why don't you just turn your head?\n\nSoon, I expect. Or later. One of those. I don't know. But I'd probably blame the English. Well, you're very similar heights. Maybe you should wear labels. Well, I would say that that person would be an egomaniac, need, game-player sort of person. It’s a bit more exciting when you go the other way. Shut up! Just shut up, shut up, shut up, shuttity up up up! Big scarf, bow tie, big embarrassing. Old ladies die all the time. It's practically in the job description. Once upon a time. The end. Dad skills.\n\nOld ladies die all the time. It's practically in the job description. Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse. I don't need a sword. Because I'm the Doctor ... and this is my spoon. I am totally against bantering. Your hips are fine, you're built like a man! No sir. Thirteen! I've made many mistakes... and it's about time that I did something about that. Come on, Team Not Dead. Five foot one and crying - you never stood a chance. Well, you're very similar heights. Maybe you should wear labels.",
+        "contentDigest": "bae66fe43d9770438c3c483e4c267dbf",
+        "owner": "gatsby-source-contentful"
+      }
+    },
+    "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode >>> MarkdownRemark": {
+      "id": "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode",
+      "internal": {
+        "content": "Obviously the Time Lords have programmed the TARDIS always to return to Earth. It seems that I am some kind of a galactic yo-yo! An unintelligent enemy is far less dangerous than an intelligent one…. No… No-no-no-no-wait-wait-wait-wait… I remember I'm-I-I… I'm with my father, we're lying back in the grass, it's a warm Gallifreyan night— I think I might have miscalculated. There are worlds out there where the sky is burning, and the sea's asleep, and the rivers dream; people made of smoke and cities made of song. Somewhere there's danger, somewhere there's injustice, and somewhere else the tea's getting cold. Come on, Ace. We've got work to do.\n\nA little gratitude wouldn't irretrievably damage my ego. Alright? Of course I'm alright, my child. You know, I am so constantly outwitting the opposition, I tend to forget the delights and satisfaction of the gentle art of fisticuffs. There are fixed points throughout time where things must stay exactly the way they are. This is not one of them. This is an opportunity! Whatever happens here will create its own timeline, its own reality, a temporal tipping point. The future revolves around you, here, now, so do good!\n\nCan I talk about planets now? Ricky, if I was to tell you what I was doing to the controls of my frankly magnificent timeship, would you even begin to understand? It's times like this I wish I still had my scarf. It may be irrational of me, but human beings are my favorite species. I'm sorry. I'm so sorry. Your ideas are too narrow and crippled. I am a citizen of the universe and a gentleman to boot. I don't suppose we'll ever know if we actually succeeded. But at worst, we failed doing the right thing, as opposed to succeeding in doing the wrong.\n\nCourage isn’t a matter of not being frightened, it’s being afraid and doing what you have to do anyway. I can't stand burnt toast. I loathe bus stations. Terrible places. Full of lost luggage and lost souls. Mmmm… what's that m'boy? I think I might have miscalculated. No, not the hugging. I'm against the hugging. Well, I'll tell you something that should be of vital interest to you.…That you, Sir, are a NITWIT! Be a pal and tell me, Am I a good man? Are you listening to me? Doctor no more. Blimey, trying to make an Ood laugh...\n\nNot allowed? Not allowed? Me, I’m allowed everywhere. I'm half human. On my mother's side. Right! So stop dilly-dallying, and cross it! I'm sorry. I'm so sorry. Blimey, trying to make an Ood laugh... If I grow to be half the man that you are, Clara Oswald, then I shall be happy indeed. I once spent a hell of a long time trying to get a gobby Australian to Heathrow airport. This stuff, or whoever sent it, is cleverer than we are. Unfortunate, isn't it? Frightened people. Give me a Dalek any day.\n\nDeath is always more frightening when it strikes invisibly. Excellent. Blow up that vehicle. No. That is not the question. That is not where we start. I am totally against bantering. Don't you think she looks tired? The past is another country. 1987's just the Isle of Wight. Your ideas are too narrow and crippled. I am a citizen of the universe and a gentleman to boot. Soon, I expect. Or later. One of those. I had to face my fear...that was more important than just going on living.... Why can't you leave me alone?!\n\nRiver, you know my name. You whispered my name in my ear! There's only one reason I would ever tell anyone my name. There's only one time I could... I once spent a hell of a long time trying to get a gobby Australian to Heathrow airport. You don't understand so you find excuses. Thank you, Strax. And if I'm ever in need of advice from a psychotic potato dwarf, you'll certainly be the first to know. New-new-Doctor. It's rather a pity, in a way...now the universe is down to 699 wonders. Yes, well, the definition of the word 'humanity' is always a rather complex question, isn’t it?\n\nJamie, remind me to give you a lesson in tying knots, sometime. You’ll never understand. I want to see the universe, not to rule it. Brave heart, Tegan. Our lives are different from anybody else’s. That’s the exciting thing. Nobody in the universe can do what we’re doing. One day, I shall come back. Yes, I shall come back. Until then, there must be no regrets, no tears, no anxieties. Just go forward in all your beliefs and prove to me that I am not mistaken in mine. Goodbye Susan. Goodbye my dear.\n\nThe Doctor. Nosey parker. The world's about to end, and here I am, stuck in traffic. When I say run, run. ...RUN! Renewed? Have I? That's it, I've been renewed. It's part of the TARDIS. Without it I couldn't survive. I might've been saying something important. I was saying something important! Reverse the polarity of the neutron flow. Don't you think she looks tired? Goodbye...my Sarah Jane! Oh, my giddy aunt! You don't understand so you find excuses. Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse.",
+        "type": "MarkdownRemark",
+        "contentDigest": "f491fa5ece05103dcfcfca669006be37",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode",
+        "parent": "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode"
+      },
+      "excerpt": ""
     },
     "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode >>> MarkdownRemark": {
       "id": "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode >>> MarkdownRemark",
@@ -683,6 +813,69 @@
       },
       "excerpt": ""
     },
+    "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode >>> MarkdownRemark": {
+      "id": "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode >>> MarkdownRemark",
+      "children": [],
+      "parent": "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode",
+      "internal": {
+        "content": "He was dead already, I'm saving us. Follow me, and run! Underneath it all I think you're probably kind and nice, and very brave. I just wish you weren't a soldier. You see when I started, all those years ago, I was just running. I called myself the Doctor but it was just a name. Then I went to Skaro. And I met you lot. And I understood who I was. Please just... just see me. I don't know. But I'd probably blame the English. Why do you have three mirrors? Why don't you just turn your head? Shush.\n\nSoon, I expect. Or later. One of those. That's a relief. I hate babysitters. Kidneys! I have kidneys. And I don't like the colour. Are you taller? Why? Do you have to reach a high shelf? I am totally against bantering. The Doctor. Nosey parker. He was dead already, I'm saving us. Follow me, and run! Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse. I don't need a sword. Because I'm the Doctor ... and this is my spoon. What do you think of the new look? I was hoping for 'minimalism', but I think I came up with 'magician'.\n\nMy personal plan is that a thing will probably happen quite soon. Please just... just see me. You realise one of us is lying about our basic programming. And I think we both know which one that is. I don't know. But I'd probably blame the English. When this is all over, you can find a shoulder to cry on. But for now, you need me. What do you think of the new look? I was hoping for 'minimalism', but I think I came up with 'magician'. Shut it, Hoodie! Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse.\n\nBe a pal and tell me, Am I a good man? I just have one question… do you know how to fly this thing? What do you think of the new look? I was hoping for 'minimalism', but I think I came up with 'magician'. Shut up! Just shut up, shut up, shut up, shuttity up up up! Shush. Clara, I'm not your boyfriend. I never said it was your mistake. Five foot one and crying - you never stood a chance. Well, I would say that that person would be an egomaniac, need, game-player sort of person. That's a relief. I hate babysitters.\n\nKidneys! I have kidneys. And I don't like the colour. Why do you have three mirrors? Why don't you just turn your head? Please just... just see me. When this is all over, you can find a shoulder to cry on. But for now, you need me. Come on, Team Not Dead. Old ladies die all the time. It's practically in the job description. I just have one question… do you know how to fly this thing? My carer. She cares so I don't have to. You realise one of us is lying about our basic programming. And I think we both know which one that is.\n\nI am totally against bantering. You see when I started, all those years ago, I was just running. I called myself the Doctor but it was just a name. Then I went to Skaro. And I met you lot. And I understood who I was. The Doctor. Nosey parker. Don't be lasagna. Once upon a time. The end. Dad skills. I don't think that I'm a hugging person now. Soon, I expect. Or later. One of those. My carer. She cares so I don't have to. Well, I would say that that person would be an egomaniac, need, game-player sort of person.\n\nKidneys! I have kidneys. And I don't like the colour. No. That is not the question. That is not where we start. Don't be lasagna. I am totally against bantering. I don't know. But I'd probably blame the English. Shut it, Hoodie! When this is all over, you can find a shoulder to cry on. But for now, you need me. Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse. Clara, I'm not your boyfriend. I never said it was your mistake. Why do you have three mirrors? Why don't you just turn your head?\n\nSoon, I expect. Or later. One of those. I don't know. But I'd probably blame the English. Well, you're very similar heights. Maybe you should wear labels. Well, I would say that that person would be an egomaniac, need, game-player sort of person. It’s a bit more exciting when you go the other way. Shut up! Just shut up, shut up, shut up, shuttity up up up! Big scarf, bow tie, big embarrassing. Old ladies die all the time. It's practically in the job description. Once upon a time. The end. Dad skills.\n\nOld ladies die all the time. It's practically in the job description. Sorry, I'm going to have to relieve you of your pet. Shut up, I was talking to the horse. I don't need a sword. Because I'm the Doctor ... and this is my spoon. I am totally against bantering. Your hips are fine, you're built like a man! No sir. Thirteen! I've made many mistakes... and it's about time that I did something about that. Come on, Team Not Dead. Five foot one and crying - you never stood a chance. Well, you're very similar heights. Maybe you should wear labels.",
+        "type": "MarkdownRemark",
+        "contentDigest": "a6443b310dcade6a46610338520aba19",
+        "owner": "gatsby-transformer-remark"
+      },
+      "frontmatter": {
+        "title": "",
+        "_PARENT": "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode",
+        "parent": "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode"
+      },
+      "excerpt": ""
+    },
+    "SitePage /second-post": {
+      "layout": "index",
+      "jsonName": "second-post.json",
+      "internalComponentName": "ComponentSecondPost",
+      "path": "/second-post",
+      "component": "/Users/jennifer/jmackown/git/lincsjs/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/second-post",
+        "postTitle": "This is a second blog post"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/src/templates/blog-post.js",
+      "id": "SitePage /second-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0ed95924decc3996851c8084a30567e9",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /first-post": {
+      "layout": "index",
+      "jsonName": "first-post.json",
+      "internalComponentName": "ComponentFirstPost",
+      "path": "/first-post",
+      "component": "/Users/jennifer/jmackown/git/lincsjs/src/templates/blog-post.js",
+      "componentChunkName": "component---src-templates-blog-post-js",
+      "context": {
+        "slug": "/first-post",
+        "postTitle": "This is a demo post to see how all this works"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/src/templates/blog-post.js",
+      "id": "SitePage /first-post",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c76cec357ec7e24c0868c7c1c320d2ee",
+        "owner": "internal-data-bridge"
+      }
+    },
     "SitePage /404/": {
       "layout": "index",
       "jsonName": "404.json",
@@ -699,7 +892,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "71599c4d49228e9d14b8e464a459eede",
+        "contentDigest": "d5b7f76aae52de84a87ded2ac47a0bc5",
         "owner": "internal-data-bridge"
       }
     },
@@ -719,7 +912,27 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2ed5f06e9ff5ec795c74fba029565c93",
+        "contentDigest": "921ddf0fda42e3ef967b2e47514ef0c4",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /meetups/": {
+      "layout": "index",
+      "jsonName": "meetups.json",
+      "internalComponentName": "ComponentMeetups",
+      "path": "/meetups/",
+      "component": "/Users/jennifer/jmackown/git/lincsjs/src/pages/meetups.js",
+      "componentChunkName": "component---src-pages-meetups-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/src/pages/meetups.js",
+      "id": "SitePage /meetups/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4699522bf559a47afb16a1ee639476a3",
         "owner": "internal-data-bridge"
       }
     },
@@ -739,7 +952,27 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d7d65ec0a1beda801f8974e2586bdf61",
+        "contentDigest": "4414d3da7730e47af83ec001c7e96dcd",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /singlemeetup/": {
+      "layout": "index",
+      "jsonName": "singlemeetup.json",
+      "internalComponentName": "ComponentSinglemeetup",
+      "path": "/singlemeetup/",
+      "component": "/Users/jennifer/jmackown/git/lincsjs/src/pages/singlemeetup.js",
+      "componentChunkName": "component---src-pages-singlemeetup-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/src/pages/singlemeetup.js",
+      "id": "SitePage /singlemeetup/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4f8305354d26acfd63123936af5c1199",
         "owner": "internal-data-bridge"
       }
     },
@@ -759,7 +992,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8e928b618bc1983f2119108558aaff74",
+        "contentDigest": "52900655fccce570ef94070cead7744e",
         "owner": "internal-data-bridge"
       }
     }
@@ -767,23 +1000,61 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "wb1sy2ahl1ol": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyYUw6AMA8K4LsKPGMO7w5_CpTxJGwjCpMKBwqTDiXLDoMOuVxLCr1omXiRIwoBNFCUrw5c1W0XCh8KGw7hqF1LCk8OWwoDDg07Dq8O1woTDn2nDi1DCg27CmAzDiMOdw40"
+        "wb1sy2ahl1ol": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybDgcKwC8OtEcKcOURYF8KFPsKhN8KKwrzCrsOHwpNEUsOBw5bDmcKdwo_CuMKzPcKnw5DDqsKawpXDun3CpwdPwrDDvHBvw6MAYsKZJcKqX8OXVcKDDkAVPxZXcDs1w7k0"
       }
     },
-    "PLUGINS_HASH": "a69179bb4375d18a3d11c06fc9465823"
+    "PLUGINS_HASH": "58f4ee4ab6b4549f52c060eea052ef1e"
   },
   "componentDataDependencies": {
     "nodes": {
-      "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode": [
-        "/"
+      "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode >>> MarkdownRemark": [
+        null,
+        "/",
+        null,
+        "/second-post"
       ],
       "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode >>> MarkdownRemark": [
-        "/"
+        null,
+        "/",
+        null,
+        "/first-post"
+      ],
+      "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode": [
+        "/",
+        "/second-post"
+      ],
+      "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode": [
+        "/",
+        "/first-post"
+      ],
+      "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode": [
+        "/meetups/",
+        "/singlemeetup/"
+      ],
+      "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode >>> MarkdownRemark": [
+        "/meetups/",
+        "/singlemeetup/"
+      ],
+      "c2NMlVbwRCgeoQI0OWuGska": [
+        "/singlemeetup/"
+      ],
+      "c2wL6RMdhawcUOQqwaIs0AY": [
+        "/",
+        "/first-post"
+      ],
+      "c62WoAw1a5UIk0eKkOWoiwM": [
+        "/second-post"
       ]
     },
     "connections": {
       "ContentfulBlogPost": [
         "/"
+      ],
+      "ContentfulMeetup": [
+        "/meetups/"
+      ],
+      "SitePage": [
+        "/dev-404-page/"
       ]
     }
   }

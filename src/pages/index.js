@@ -9,7 +9,7 @@ const BlogPost = ({node}) => {
             padding: '1.5rem',
             border: '1px solid #ccc'
         }}>
-            <h3><Link to={node.postTitle}>{node.postTitle}</Link></h3>
+            <h3><Link to={node.slug}>{node.postTitle}</Link></h3>
             <p>created at</p>
             <div>
                 <div>{node.postBody.childMarkdownRemark.excerpt}</div>
@@ -30,8 +30,8 @@ const IndexPage = (props) => {
 
 export default IndexPage
 
-export const pageQuery = graphql`
-    query pageQuery {
+export const indexQuery = graphql`
+    query indexQuery {
           allContentfulBlogPost(
                 filter: {
                     node_locale: {eq: "en-GB"}
@@ -43,6 +43,7 @@ export const pageQuery = graphql`
             edges {
               node {
                 id
+                slug
                 createdAt(formatString: "MMMM DD, YYYY")
                 postTitle
                 postBody {
