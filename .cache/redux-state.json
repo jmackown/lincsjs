@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "57ea55675e105942602434a763cdbdcb",
+        "contentDigest": "a96408acbd8a809e56bebe2ffb15c9c5",
         "owner": "internal-data-bridge"
       }
     },
@@ -540,7 +540,7 @@
       "resolve": "/Users/jennifer/jmackown/git/lincsjs",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "48c45758f4ef04590f344303a7d1c8f1",
+      "version": "d6905d4f7bdcdccff1b91e5cfc699917",
       "pluginOptions": {
         "plugins": []
       },
@@ -610,7 +610,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "14986ad19f76ce8df9d54295c88503b4",
+        "contentDigest": "30308c4c050bdac0cea0363093e130c7",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -623,12 +623,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-22T14:01:50.986Z",
+      "buildTime": "2018-03-22T15:59:13.126Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "2b9bb6ae56ab65305ea50cbb45a05c3a",
+        "contentDigest": "cd6878c5d08797e399aabdfff51e6a99",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -748,18 +748,19 @@
         "lon": -0.5352181000000655,
         "lat": 53.22257579999999
       },
+      "slug": "/initial-commit",
       "meetupDetails___NODE": "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode",
       "id": "c2NMlVbwRCgeoQI0OWuGska",
       "contentful_id": "2NMlVbwRCgeoQI0OWuGska",
       "createdAt": "2018-03-22T11:30:28.137Z",
-      "updatedAt": "2018-03-22T11:30:28.137Z",
+      "updatedAt": "2018-03-22T14:20:44.923Z",
       "parent": "meetup",
       "children": [
         "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode"
       ],
       "internal": {
         "type": "ContentfulMeetup",
-        "contentDigest": "415df06a0ebadb90a2edbd63ad2bd2c1",
+        "contentDigest": "963684f6e80b9e8b6f12874b1ab17697",
         "owner": "gatsby-source-contentful"
       },
       "node_locale": "en-GB"
@@ -838,8 +839,7 @@
       "component": "/Users/jennifer/jmackown/git/lincsjs/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {
-        "slug": "/second-post",
-        "postTitle": "This is a second blog post"
+        "slug": "/second-post"
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
@@ -849,7 +849,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "0ed95924decc3996851c8084a30567e9",
+        "contentDigest": "2bc3e2faf19b658bd9c32654b01135f0",
         "owner": "internal-data-bridge"
       }
     },
@@ -861,8 +861,7 @@
       "component": "/Users/jennifer/jmackown/git/lincsjs/src/templates/blog-post.js",
       "componentChunkName": "component---src-templates-blog-post-js",
       "context": {
-        "slug": "/first-post",
-        "postTitle": "This is a demo post to see how all this works"
+        "slug": "/first-post"
       },
       "pluginCreator___NODE": "Plugin default-site-plugin",
       "pluginCreatorId": "Plugin default-site-plugin",
@@ -872,7 +871,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c76cec357ec7e24c0868c7c1c320d2ee",
+        "contentDigest": "fd66aa7b3640b0b2eab5363d25f39f77",
         "owner": "internal-data-bridge"
       }
     },
@@ -892,7 +891,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "d5b7f76aae52de84a87ded2ac47a0bc5",
+        "contentDigest": "6c6414cb0c2b68655883be61a16b0445",
         "owner": "internal-data-bridge"
       }
     },
@@ -912,7 +911,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "921ddf0fda42e3ef967b2e47514ef0c4",
+        "contentDigest": "624dcd7a050b89735a2e528e0e72c915",
         "owner": "internal-data-bridge"
       }
     },
@@ -932,7 +931,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4699522bf559a47afb16a1ee639476a3",
+        "contentDigest": "a49951952be02c42f7cd1116c32479e3",
         "owner": "internal-data-bridge"
       }
     },
@@ -952,27 +951,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "4414d3da7730e47af83ec001c7e96dcd",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /singlemeetup/": {
-      "layout": "index",
-      "jsonName": "singlemeetup.json",
-      "internalComponentName": "ComponentSinglemeetup",
-      "path": "/singlemeetup/",
-      "component": "/Users/jennifer/jmackown/git/lincsjs/src/pages/singlemeetup.js",
-      "componentChunkName": "component---src-pages-singlemeetup-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/src/pages/singlemeetup.js",
-      "id": "SitePage /singlemeetup/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "4f8305354d26acfd63123936af5c1199",
+        "contentDigest": "d122ceeee7a9be2094655a32cbc06062",
         "owner": "internal-data-bridge"
       }
     },
@@ -992,7 +971,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "52900655fccce570ef94070cead7744e",
+        "contentDigest": "7d2bb8f9afd02e6ade8e877614416a2f",
         "owner": "internal-data-bridge"
       }
     }
@@ -1000,24 +979,24 @@
   "status": {
     "plugins": {
       "gatsby-source-contentful": {
-        "wb1sy2ahl1ol": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdybDgcKwC8OtEcKcOURYF8KFPsKhN8KKwrzCrsOHwpNEUsOBw5bDmcKdwo_CuMKzPcKnw5DDqsKawpXDun3CpwdPwrDDvHBvw6MAYsKZJcKqX8OXVcKDDkAVPxZXcDs1w7k0"
+        "wb1sy2ahl1ol": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZ4w6bDicO7B8K6AMKaHsO8HMOWw6Fab0U4wp1vw5kBVsKlMQRHBcO3w4bDvXnCjsO0wqRdS1DCmXpReyXCvMODw4UwwqPCrwYQwrTDtcOYw6VCw7sDY8O1wrp2wpNfw54"
       }
     },
-    "PLUGINS_HASH": "58f4ee4ab6b4549f52c060eea052ef1e"
+    "PLUGINS_HASH": "59c5c9202b1fabf82c588cd36cd69e86"
   },
   "componentDataDependencies": {
     "nodes": {
       "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode >>> MarkdownRemark": [
         null,
         "/",
-        null,
-        "/second-post"
+        "/second-post",
+        null
       ],
       "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode >>> MarkdownRemark": [
         null,
         "/",
-        null,
-        "/first-post"
+        "/first-post",
+        null
       ],
       "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode": [
         "/",
@@ -1027,23 +1006,17 @@
         "/",
         "/first-post"
       ],
-      "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode": [
-        "/meetups/",
-        "/singlemeetup/"
-      ],
-      "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode >>> MarkdownRemark": [
-        "/meetups/",
-        "/singlemeetup/"
-      ],
-      "c2NMlVbwRCgeoQI0OWuGska": [
-        "/singlemeetup/"
-      ],
       "c2wL6RMdhawcUOQqwaIs0AY": [
-        "/",
         "/first-post"
       ],
       "c62WoAw1a5UIk0eKkOWoiwM": [
         "/second-post"
+      ],
+      "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode": [
+        "/meetups/"
+      ],
+      "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode >>> MarkdownRemark": [
+        "/meetups/"
       ]
     },
     "connections": {

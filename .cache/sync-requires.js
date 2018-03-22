@@ -12,8 +12,7 @@ exports.components = {
   "component---src-pages-404-js": preferDefault(require("/Users/jennifer/jmackown/git/lincsjs/src/pages/404.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/jennifer/jmackown/git/lincsjs/src/pages/index.js")),
   "component---src-pages-meetups-js": preferDefault(require("/Users/jennifer/jmackown/git/lincsjs/src/pages/meetups.js")),
-  "component---src-pages-page-2-js": preferDefault(require("/Users/jennifer/jmackown/git/lincsjs/src/pages/page-2.js")),
-  "component---src-pages-singlemeetup-js": preferDefault(require("/Users/jennifer/jmackown/git/lincsjs/src/pages/singlemeetup.js"))
+  "component---src-pages-page-2-js": preferDefault(require("/Users/jennifer/jmackown/git/lincsjs/src/pages/page-2.js"))
 }
 
 exports.json = {
@@ -31,8 +30,6 @@ exports.json = {
   "meetups.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/meetups.json"),
   "layout-index.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/layout-index.json"),
   "page-2.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/page-2.json"),
-  "layout-index.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/layout-index.json"),
-  "singlemeetup.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/singlemeetup.json"),
   "layout-index.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/layout-index.json"),
   "404-html.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/404-html.json")
 }
