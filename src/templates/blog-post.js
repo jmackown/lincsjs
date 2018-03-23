@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import Img from "gatsby-image"
+import ReactDisqusThread from "react-disqus-thread"
+
 
 class SingleBlogPost extends Component {
     render() {
         console.log(this.props)
-        const { postTitle, createdAt, postBody } = this.props.data.contentfulBlogPost
+        const { postTitle, createdAt, postBody, author, slug, id } = this.props.data.contentfulBlogPost
         return (
             <div>
                 <h1 style={{
@@ -14,12 +16,21 @@ class SingleBlogPost extends Component {
                 }}>
                     {postTitle}
                 </h1>
-                <p>{createdAt}</p>
+                <p>written by {author.name} <img src={author.url} /> on {createdAt}</p>                
 
                 <hr />
                 <div>
                     <div dangerouslySetInnerHTML={{__html:postBody.childMarkdownRemark.html}} />
                 </div>
+
+                <ReactDisqusThread
+                  shortname={'lincsjs'}
+                  identifier={`${id}`}
+                  title={`${postTitle}`}
+                  url={`${slug}`}
+                  onNewComment={this.handleNewComment}
+                />
+
             </div>
         )
     }
@@ -33,14 +44,30 @@ export default SingleBlogPost
 
 export const blogQuery = graphql`
     query blogQuery($slug: String!) {
-        contentfulBlogPost(slug: {eq: $slug}) {
-            postTitle
-            createdAt(formatString: "MMMM DD, YYYY")
-            postBody {
-                childMarkdownRemark {
-                    html
+
+                  contentfulBlogPost(slug: {eq: $slug}) {
+                        slug
+                        createdAt(formatString: "MMMM DD, YYYY")
+                        author {
+                          id
+                          name
+                          headshot {
+                            file {
+                              url
+                              fileName
+                              contentType
+                            }
+                          }
+                        }                        
+                        postTitle
+                        postBody {
+                          id
+                          childMarkdownRemark{
+                            html
+                          }
+                        } 
+                  
+                  }
                 }
-            }
-        }
-    }
+
 `

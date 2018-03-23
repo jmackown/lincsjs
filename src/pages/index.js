@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Img from "gatsby-image"
+import Disqus from 'disqus-react';
 
 const BlogPost = ({node}) => {
     return (
@@ -10,21 +11,30 @@ const BlogPost = ({node}) => {
             border: '1px solid #ccc'
         }}>
             <h3><Link to={node.slug}>{node.postTitle}</Link></h3>
-            <p>created at</p>
+            <p>written by {node.author.name} on {node.createdAt}</p>
+          
             <div>
                 <div>{node.postBody.childMarkdownRemark.excerpt}</div>
             </div>
+
+            
         </div>
     )
 }
 
 const IndexPage = (props) => {
+  
+
 
     console.log(props)
     return (
         <div>
             {props.data.allContentfulBlogPost.edges.map((edge) => <BlogPost key={edge.node.id} node={edge.node} />)}
         </div>
+
+
+
+
     )
 }
 
@@ -45,6 +55,17 @@ export const indexQuery = graphql`
                 id
                 slug
                 createdAt(formatString: "MMMM DD, YYYY")
+                author {
+                  id
+                  name
+                  headshot {
+                    file {
+                      url
+                      fileName
+                      contentType
+                    }
+                  }
+                }                
                 postTitle
                 postBody {
                   id

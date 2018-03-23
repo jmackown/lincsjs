@@ -28,6 +28,17 @@ const Header = () => (
       </h1>
       <h2 style={{ margin: 0 }}>
         <Link
+          to="/"
+          style={{
+            color: 'white',
+            textDecoration: 'none',
+          }}
+        >
+          Blog
+        </Link>        
+      </h2>    
+      <h2 style={{ margin: 0 }}>
+        <Link
           to="/meetups"
           style={{
             color: 'white',
@@ -35,8 +46,8 @@ const Header = () => (
           }}
         >
           Meetups
-        </Link>
-      </h2>      
+        </Link>        
+      </h2>            
     </div>
   </div>
 )

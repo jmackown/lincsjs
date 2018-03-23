@@ -20,6 +20,17 @@ exports.createPages = ({graphql, boundActionCreators}) => {
                         id
                         slug
                         createdAt(formatString: "MMMM DD, YYYY")
+                        author {
+                          id
+                          name
+                          headshot {
+                            file {
+                              url
+                              fileName
+                              contentType
+                            }
+                          }
+                        }                        
                         postTitle
                         postBody {
                           id
