@@ -27,7 +27,7 @@ class SingleBlogPost extends Component {
                   shortname={'lincsjs'}
                   identifier={`${id}`}
                   title={`${postTitle}`}
-                  url={`${slug}`}
+                  url={'http://lincsjs.uk'}
                   onNewComment={this.handleNewComment}
                 />
 

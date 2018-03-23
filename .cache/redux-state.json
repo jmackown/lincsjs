@@ -1,22 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/jennifer/jmackown/git/lincsjs/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "2f5fd6f529197cbad607a7ba0b5d662a",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -565,6 +556,10 @@
             "version": "^5.1.3"
           },
           {
+            "name": "disqus-react",
+            "version": "^1.0.5"
+          },
+          {
             "name": "gatsby",
             "version": "^1.9.238"
           },
@@ -587,6 +582,10 @@
           {
             "name": "gatsby-transformer-remark",
             "version": "^1.7.37"
+          },
+          {
+            "name": "react-disqus-thread",
+            "version": "^0.4.0"
           },
           {
             "name": "react-helmet",
@@ -619,16 +618,14 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
-      "port": "8000",
-      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-23T11:25:30.216Z",
+      "buildTime": "2018-03-23T11:40:09.686Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "b6a6328ec16c3918af6f2530eb38a0c8",
+        "contentDigest": "c89976ad8d24cb7dcbdebf62569c2745",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -944,7 +941,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "73436506c19ded120b987dbe6887c02d",
+        "contentDigest": "220dc908f70439a99a56ea3d0f267b46",
         "owner": "internal-data-bridge"
       }
     },
@@ -966,7 +963,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "019ec024319bd0b8047bec1672ca5612",
+        "contentDigest": "ae1fc11fc734a1b03b640b21639cd001",
         "owner": "internal-data-bridge"
       }
     },
@@ -986,7 +983,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "dd4d252dedeabbe6b1450ed4d0c795ab",
+        "contentDigest": "17a07c5e3ecbc1d63a5c4bd080826cae",
         "owner": "internal-data-bridge"
       }
     },
@@ -1006,7 +1003,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "86efc59b132df4f16ee9b3af0b8d153e",
+        "contentDigest": "a177c2e0f09bec779f5900cdd752d5c0",
         "owner": "internal-data-bridge"
       }
     },
@@ -1026,7 +1023,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f337e4db571082292dac8770bd6446e5",
+        "contentDigest": "7a2f5f4ea477cd63784cfd389f37f38a",
         "owner": "internal-data-bridge"
       }
     },
@@ -1046,7 +1043,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1852043389f985b4a779b311af581041",
+        "contentDigest": "70c64a7056af752d939241c19fced51e",
         "owner": "internal-data-bridge"
       }
     },
@@ -1066,7 +1063,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "87918a4b96b7e970868241146dcee788",
+        "contentDigest": "b2486c3faabfe151ba5b8e276bae8b23",
         "owner": "internal-data-bridge"
       }
     }
@@ -1077,45 +1074,45 @@
         "wb1sy2ahl1ol": "w5ZGw6JFwqZmVcKsE8Kow4grw45QdyZDGsKZwq3DhGg6JcOzw6sgCQDDhxnDtVTDmcKQb2vDt1DCpldcecKYT8KDwo4fwpLDnW89wrnDnxhhwrfCk8KZR8O2wrATO0NrQQwwwo0DJ35iwpbDkUZcwptj"
       }
     },
-    "PLUGINS_HASH": "fb8f78172913ba909415fe2f5b21b74b"
+    "PLUGINS_HASH": "e301f7e1b65563c6a8613059ae275b47"
   },
   "componentDataDependencies": {
     "nodes": {
       "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode >>> MarkdownRemark": [
         null,
-        "/",
         "/second-post",
+        "/",
         null
       ],
       "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode >>> MarkdownRemark": [
         null,
-        "/",
         "/first-post",
+        "/",
         null
-      ],
-      "c71OZviBRtYi2SoUEoWwWmG": [
-        "/",
-        "/first-post",
-        "/second-post"
-      ],
-      "c5IYBHnBUVUso8Qkki0ewsw": [
-        "/",
-        "/first-post",
-        "/second-post"
-      ],
-      "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode": [
-        "/",
-        "/second-post"
-      ],
-      "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode": [
-        "/",
-        "/first-post"
       ],
       "c2wL6RMdhawcUOQqwaIs0AY": [
         "/first-post"
       ],
+      "c71OZviBRtYi2SoUEoWwWmG": [
+        "/first-post",
+        "/second-post",
+        "/"
+      ],
+      "c5IYBHnBUVUso8Qkki0ewsw": [
+        "/first-post",
+        "/second-post",
+        "/"
+      ],
+      "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode": [
+        "/first-post",
+        "/"
+      ],
       "c62WoAw1a5UIk0eKkOWoiwM": [
         "/second-post"
+      ],
+      "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode": [
+        "/second-post",
+        "/"
       ],
       "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode": [
         "/meetups/"
@@ -1125,14 +1122,14 @@
       ]
     },
     "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ],
       "ContentfulBlogPost": [
         "/"
       ],
       "ContentfulMeetup": [
         "/meetups/"
-      ],
-      "SitePage": [
-        "/dev-404-page/"
       ]
     }
   }
