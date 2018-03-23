@@ -8,7 +8,6 @@ exports.layouts = {
 
 exports.components = {
   "component---src-templates-blog-post-js": preferDefault(require("/Users/jennifer/jmackown/git/lincsjs/src/templates/blog-post.js")),
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/jennifer/jmackown/git/lincsjs/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/jennifer/jmackown/git/lincsjs/src/pages/404.js")),
   "component---src-pages-about-js": preferDefault(require("/Users/jennifer/jmackown/git/lincsjs/src/pages/about.js")),
   "component---src-pages-blog-js": preferDefault(require("/Users/jennifer/jmackown/git/lincsjs/src/pages/blog.js")),
@@ -22,8 +21,6 @@ exports.json = {
   "second-post.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/second-post.json"),
   "layout-index.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/layout-index.json"),
   "first-post.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/first-post.json"),
-  "layout-index.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/dev-404-page.json"),
   "layout-index.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/layout-index.json"),
   "404.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/404.json"),
   "layout-index.json": require("/Users/jennifer/jmackown/git/lincsjs/.cache/json/layout-index.json"),
