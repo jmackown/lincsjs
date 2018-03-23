@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/jennifer/jmackown/git/lincsjs/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "2b3b7a36dc57701261ac32af19ce400e",
         "owner": "internal-data-bridge"
       }
     },
@@ -618,14 +627,16 @@
       "siteMetadata": {
         "title": "Gatsby Default Starter"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-23T11:40:09.686Z",
+      "buildTime": "2018-03-23T12:28:34.963Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c89976ad8d24cb7dcbdebf62569c2745",
+        "contentDigest": "dc46f5235c29695ccb2ff9ab9d7f709e",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -941,7 +952,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "220dc908f70439a99a56ea3d0f267b46",
+        "contentDigest": "9d6ba514405da3e3c95aedf1c9d5e8db",
         "owner": "internal-data-bridge"
       }
     },
@@ -963,7 +974,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ae1fc11fc734a1b03b640b21639cd001",
+        "contentDigest": "0c9a3b5d05ca9059680c153e2ed0de56",
         "owner": "internal-data-bridge"
       }
     },
@@ -983,7 +994,47 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "17a07c5e3ecbc1d63a5c4bd080826cae",
+        "contentDigest": "46b2b520c3601fe1d272ae8072e217ff",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /about/": {
+      "layout": "index",
+      "jsonName": "about.json",
+      "internalComponentName": "ComponentAbout",
+      "path": "/about/",
+      "component": "/Users/jennifer/jmackown/git/lincsjs/src/pages/about.js",
+      "componentChunkName": "component---src-pages-about-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/src/pages/about.js",
+      "id": "SitePage /about/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a20d617923ca68da8e9d850b5068b174",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /blog/": {
+      "layout": "index",
+      "jsonName": "blog.json",
+      "internalComponentName": "ComponentBlog",
+      "path": "/blog/",
+      "component": "/Users/jennifer/jmackown/git/lincsjs/src/pages/blog.js",
+      "componentChunkName": "component---src-pages-blog-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/src/pages/blog.js",
+      "id": "SitePage /blog/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "a86fe8a2bf1a2628ec4d22fbcef20d0a",
         "owner": "internal-data-bridge"
       }
     },
@@ -1003,7 +1054,27 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a177c2e0f09bec779f5900cdd752d5c0",
+        "contentDigest": "7dcc846b59ec88c0c2e6d4952f95438a",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /joinus/": {
+      "layout": "index",
+      "jsonName": "joinus.json",
+      "internalComponentName": "ComponentJoinus",
+      "path": "/joinus/",
+      "component": "/Users/jennifer/jmackown/git/lincsjs/src/pages/joinus.js",
+      "componentChunkName": "component---src-pages-joinus-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin component-page-creator",
+      "pluginCreatorId": "Plugin component-page-creator",
+      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/src/pages/joinus.js",
+      "id": "SitePage /joinus/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1d518174585f588d2a58572ba75e31d4",
         "owner": "internal-data-bridge"
       }
     },
@@ -1023,27 +1094,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "7a2f5f4ea477cd63784cfd389f37f38a",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /page-2/": {
-      "layout": "index",
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/Users/jennifer/jmackown/git/lincsjs/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin component-page-creator",
-      "pluginCreatorId": "Plugin component-page-creator",
-      "componentPath": "/Users/jennifer/jmackown/git/lincsjs/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "70c64a7056af752d939241c19fced51e",
+        "contentDigest": "6194a7a37e4a0f5277ad95031746b981",
         "owner": "internal-data-bridge"
       }
     },
@@ -1063,7 +1114,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b2486c3faabfe151ba5b8e276bae8b23",
+        "contentDigest": "fffa37b97917b41e227504521a20a27e",
         "owner": "internal-data-bridge"
       }
     }
@@ -1080,39 +1131,45 @@
     "nodes": {
       "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode >>> MarkdownRemark": [
         null,
-        "/second-post",
         "/",
+        "/blog/",
+        "/second-post",
         null
       ],
       "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode >>> MarkdownRemark": [
         null,
-        "/first-post",
         "/",
+        "/blog/",
+        "/first-post",
         null
       ],
       "c2wL6RMdhawcUOQqwaIs0AY": [
         "/first-post"
       ],
       "c71OZviBRtYi2SoUEoWwWmG": [
-        "/first-post",
+        "/",
+        "/blog/",
         "/second-post",
-        "/"
+        "/first-post"
       ],
       "c5IYBHnBUVUso8Qkki0ewsw": [
-        "/first-post",
+        "/",
+        "/blog/",
         "/second-post",
-        "/"
+        "/first-post"
       ],
       "c2wL6RMdhawcUOQqwaIs0AYpostBodyTextNode": [
-        "/first-post",
-        "/"
+        "/",
+        "/blog/",
+        "/first-post"
       ],
       "c62WoAw1a5UIk0eKkOWoiwM": [
         "/second-post"
       ],
       "c62WoAw1a5UIk0eKkOWoiwMpostBodyTextNode": [
-        "/second-post",
-        "/"
+        "/",
+        "/blog/",
+        "/second-post"
       ],
       "c2NMlVbwRCgeoQI0OWuGskameetupDetailsTextNode": [
         "/meetups/"
@@ -1126,7 +1183,8 @@
         "/dev-404-page/"
       ],
       "ContentfulBlogPost": [
-        "/"
+        "/",
+        "/blog/"
       ],
       "ContentfulMeetup": [
         "/meetups/"
